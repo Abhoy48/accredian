@@ -2,6 +2,9 @@
 
 A high-performance, responsive corporate website built for Accredian Enterprise using Next.js and Tailwind CSS.
 
+🌐 **Live Demo:** [https://accredian-ruby.vercel.app](https://accredian-ruby.vercel.app)
+🐙 **GitHub:** [https://github.com/Abhoy48/accredian](https://github.com/Abhoy48/accredian)
+
 ## 🚀 Setup Instructions
 
 Follow these steps to get the project running locally:
