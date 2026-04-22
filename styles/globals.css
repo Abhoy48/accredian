@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@layer base {
+  * {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  html {
+  }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background: #ffffff;
+    color: #111827;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', sans-serif;
+    letter-spacing: -0.02em;
+  }
+}
+
+@layer utilities {
+  .section-padding {
+    @apply py-20 px-6;
+  }
+
+  .section-heading {
+    @apply text-[32px] sm:text-[42px] font-bold text-gray-900 mb-2 text-center;
+    letter-spacing: -0.03em;
+    line-height: 1.15;
+  }
+
+  .section-subheading {
+    @apply text-gray-500 text-[15px] text-center mb-14 font-medium;
+  }
+
+  .blue-accent {
+    @apply text-blue-600;
+  }
+
+  .container-inner {
+    @apply max-w-[1100px] mx-auto;
+  }
+}
